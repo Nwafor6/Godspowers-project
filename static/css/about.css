@@ -1,0 +1,407 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Sans-serif, Poppins, Times New Roman;
+}
+body{
+    background: #f1f1f1;
+}
+.header1{
+    position: relative;
+    background: #0076ff;
+}
+.nav{
+    color: white;
+    position: relative;
+    background: transparent;
+}
+.header1 img{
+   image-rendering: auto;
+   background: transparent;
+    margin-top: 2%;
+}
+.nav-links a{
+    color: #fff;
+}
+.nav-links .active{
+    background: #0076ff;
+    color: #fff;
+    
+}
+.text-box h1{
+    font-size: 49px;
+    color: #0076ff;
+    text-align: center;
+    margin-top: 17%;
+    padding: 15px;
+}
+.navs{
+    display: inline;
+    justify-content: space-between;
+    position: relative;
+}
+.sub{
+    text-align: center;
+    margin-left: 30%;
+color: #0076ff;
+
+}
+.sub .active{
+    background: #0076ff;
+    color: #fff;
+}
+@media(max-width: 700px){
+    .nav-links .active{
+        background: transparent;
+        color: #0076ff;
+    }
+    .nav-links a{
+        color: #0076ff;
+    }
+}
+.navs a{
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 29px;
+    color: #0076ff;
+    transition: 0.8s;
+    
+}
+
+@media(max-width: 700px){
+    .sub{
+        display: none;
+    }
+    .text-box h1{
+        font-size: 30px;
+    }
+    .navs a:hover{
+      color: green;
+    }
+}
+.content{
+    display: flex;
+}
+.row{
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    padding: 4px 8px;
+}
+.content-col{
+    padding: 15px;
+    margin: 15px;
+}
+.content-col p{
+    padding: 15px;
+    font-size: 28px;
+    font-family: Times New Roman;
+    color: #0076ff;
+}
+.content-col q{
+    color: cornflowerblue;
+    padding: 15px;
+    margin-left: 3%;
+    text-align: center;
+    font-size: 23px;
+    
+}
+.content-col h6{
+    margin-top: 8%;
+    color: cornflowerblue;
+    font-size: 20px;
+    margin-left: 8%;
+    text-align: left;
+}
+@media(max-width: 700px){
+ .row{
+     display: block;
+     
+ }   
+ .content-col q{
+     font-size: 18px;
+     margin: 0;
+     padding: 0;
+ }
+ .content-col h6{
+     font-size: 18px;
+     margin: 0;
+     padding: 0;
+ }
+ .content-col p{
+     font-size: 27px;
+     text-align: center;
+     margin: 0;
+ }
+}
+.strategy{
+    background: #0076ff;
+    height: 28%;
+    padding: 20px;
+    
+}
+.strategy col{
+    padding: 15px;
+    width: 15px;
+}
+.strategy h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 38px;
+}
+.strategy-col h2{
+    color: #fff;
+    font-size: 28px;
+    padding: 8px;
+    text-align: left;
+}
+.strategy-col p{
+    color: #fff;
+    font-size: 20px;
+    padding: 8px;
+    text-align: left;
+}
+.strategy-col h3{
+    color: #fff;
+    font-size: 170px;
+    padding: 15px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 4%;
+}
+@media(max-width: 700px){
+    .strategy h1{
+        font-size: 28px;
+    }
+}
+.strategy a{
+    color: #0076ff;
+    text-decoration: none;
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 30px;
+    margin-bottom: 3%;
+    border-radius: 0;
+}
+@media(max-width: 700px){
+    .strategy a{
+        font-size: 16px;
+        margin-left: 19;
+        display: none;
+        
+    }
+}
+.good-work{
+    padding: 15px;
+    margin: 15px;
+}
+.good-work h1{
+    color: #0076ff;
+    text-align: center;
+    padding: 6px;
+}
+hr{
+    background: #0076ff;
+}
+.good-work p{
+    color: cornflowerblue;
+    text-align: center;
+}
+.event-planner{
+    margin: 15px;
+    padding: 15px;
+}
+.event-planner h4{
+    color: cornflowerblue;
+    text-align: left;
+    font-family: Times New Roman;
+    font-size: 25px;
+    margin-left: 4%;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+   
+}
+.event-planner p{
+    color: cornflowerblue;
+    text-align: left;
+    font-size: 19px;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    
+}
+.event-planner a{
+    margin-left: 4%;
+    text-decoration: none;
+    background: cornflowerblue;
+    color: white;
+    padding: 14px;
+    transition: 0.6s;
+}
+.event-planner a:hover{
+    border-radius: 9px;
+    font-weight: bold;
+}
+@media(max-width: 700px){
+    .event-planner a{
+        padding: 10px;
+    }
+        
+    
+}
+/* styling the faqs section */
+.faqs h1{
+    color: #0076ff;
+    text-align: center;
+    font-size: 69px;
+    padding: 12px;
+    margin: 12px;
+    margin-bottom: 4%;
+    margin-top: 8%;
+}
+.question{
+    background: url('images/laptp dark.jpg');
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+   padding: 12px;
+   column-count: 2;
+   column-width: 70px 40px;
+}
+.question h3{
+    font-family: Times New Roman;
+    font-size: 27px;
+    color: dodgerblue;
+    padding: 4px;
+    text-transform: capitalize;
+}
+.question p{
+    color: dodgerblue;
+    padding: 6px;
+    font-family: poppins;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-indent: 12px;
+}
+.question a{
+    text-decoration: underline solid;
+    color: orangered;
+    text-transform: uppercase;
+}
+@media(max-width: 700px){
+    .question{
+        columns: 1;
+        
+}
+.question h3{
+    font-size: 10px;
+    
+}
+.question p{
+    font-size: 9px;
+}
+.faqs h1{
+    font-size: 30px;
+    font-size: Times New Roman;
+}
+.talk{
+    display: none;
+}
+}
+.questions a{
+    text-decoration: underline;
+    color: lightseagreen;
+    padding: 9px;
+}
+.talk{
+    padding: 20px;
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 23px;
+    
+}
+.talk a{
+    color: lightseagreen;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: capitalize;
+}
+/* styling the teatimonial section */
+.testimony{
+    padding: 8px;
+    margin: 8px;
+    position: relative;margin-top: 20%;
+}
+.layer-col{
+  padding: 4%;
+    text-align: center;
+    border: 1px solid ;
+    display: block;
+    background: #f1f1f1;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  transition: 0.8s;
+  text-transform: capitalize;  
+  text-align: left;
+}
+.row1{
+    display: block;
+}
+.layer-col q{
+    font-size: 35px;
+    text-align: center;
+    
+    
+}
+.client{
+    margin-bottom: 10%;
+    text-align: center;
+    margin-top: 4%;
+    text-transform: capitalize;
+    color: dodgerblue;
+    
+    
+}
+.layer-col:hover{
+    background: dodgerblue;
+    color: white;
+    border-radius: 9px;
+    font-family: Times New Roman;
+    text-transform: capitalize;
+    font-size: 70px;
+}
+@media(max-width: 700px){
+    .layer-col q{
+        font-size: 20px;
+        transition: 2s;
+        display: block;
+    }
+    .layer-col q:hover{
+    background: dodgerblue;
+    color: white;
+    font-family: Times New Roman;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

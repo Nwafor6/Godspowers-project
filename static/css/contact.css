@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Times New Roman;
+}
+.tag{
+    position: relative;
+    padding: px;
+    width: 100%;
+    margin: auto;
+    font-family: Times New Roman;
+}
+.tag1{
+    position: relative;
+    text-align: center;
+    display: block;
+    padding: 8px;
+    margin: 8px;
+}
+.tag1 h2{
+    color: #0076ff;
+    font-size: 40px;
+    padding: 9px;
+    margin-bottom: 26px;
+}
+.tag1 a{
+    text-decoration: none;
+    background: #0076ff;
+    padding: 25px;
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+@media(max-width: 768px){
+    .tag1 h2{
+        font-size: 30px;
+    }
+    .tag1 a{
+        font-size: 20px;
+    }
+}
+[class*="col-"] {
+         float: left;
+         width: 100%;
+         height: 200%;
+         background: #0076ff;
+ }
+      
+      .row::after {
+         content: "";
+         display: block;
+         clear: both;
+      }
+      @media(max-width: 768px){
+         div[class*="col-"]{
+              width: 100%;
+              border: none;
+           float: none;
+           height: 200%;
+          }
+      }
+.col-1 { width: 8.33333333% }
+      .col-2 { width: 16.66666667% }
+      .col-3 { width: 25% }
+      .col-4 { width: 33.33333333% }
+      .col-5 { width: 41.66666667% }
+      .col-6 { width: 50% }
+      .col-7 { width: 58.33333333% }
+      .col-8 { width: 66.66666667% }
+      .col-9 { width: 75% }
+      .col-10 { width: 83.33333333% }
+      .col-11 { width: 91.66666667% }
+      .col-12 { width: 100% }
+
+      @media only screen and (min-width: 480px) {
+         .col-md-1 { width: 8.33333333% }
+         .col-md-2 { width: 16.66666667% }
+         .col-md-3 { width: 25% }
+         .col-md-4 { width: 33.33333333% }
+         .col-md-5 { width: 41.66666667% }
+         .col-md-6 { width: 50% }
+         .col-md-7 { width: 58.33333333% }
+         .col-md-8 { width: 66.66666667% }
+         .col-md-9 { width: 75% }
+         .col-md-10 { width: 83.33333333% }
+         .col-md-11 { width: 91.66666667% }
+         .col-md-12 { width: 100% }
+      }
+      @media only screen and (min-width: 768px) {
+         .col-l-1 { width: 8.33333333% }
+         .col-l-2 { width: 16.66666667% }
+         .col-l-3 { width: 25% }
+         .col-l-4 { width: 33.33333333% }
+         .col-l-5 { width: 41.66666667% }
+         .col-l-6 { width: 50% }
+         .col-l-7 { width: 58.33333333% }
+         .col-l-8 { width: 66.66666667% }
+         .col-l-9 { width: 75% }
+         .col-l-10 { width: 83.33333333% }
+         .col-l-11 { width: 91.66666667% }
+         .col-l-12 { width: 100% }
+      }
+.col-8{
+    position: relative;
+    padding: 15px;
+    margin: auto;
+}
+.col-8 h1{
+    color: white;
+   margin: 15px;
+   padding: 8px;
+   font-size: 15px; 
+}
+.col-8 p{
+    color: white;
+    padding: 8px;
+    margin: 12px;
+}
+.col-8 a{
+    padding: 4px;
+    color: white;
+}
+form{
+    background: transparent;
+    display: block;
+}
+label{
+    float: left;
+    color: white;
+    padding: 8px;
+}
+input[type=text], input[type=email]{
+    background: white;
+    width: 100%;
+    border-radius: 3px;
+    padding: 8px;
+    border: none;
+}
+textarea{
+    height: 130px;
+    width: 100%;
+    padding: 5px;
+    left: 8%;
+    border: none;
+    margin-left: 6px;
+    border-radius: 3px;
+    
+}
+input[type=checkbox]{
+    padding: 8px;
+    background: red;
+    margin: 8px;
+    
+}
+button{
+    padding: 10px;
+    background: white;
+    margin: 10px;
+    border-radius: 3px;
+    color: #0076ff;
+    border: none;
+    width: 27%;
+    font-size: 27px;
+}
+marquee{
+    color: #fff;
+    padding: 6px;
+    margin: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.col-6{
+    position: relative;
+    padding: 15px;
+    width: 40%;
+}
+.col-6 h1{
+    color: white;
+    margin: 10px;
+    padding: 6px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.col-6 p{
+    color: white;
+    padding: 8px;
+    mmargin: 20px;
+}
+.col-6 i{
+    color: white;
+    margin-right: 9px;
+}
+@media(max-width: 768px){
+    .col-8{
+        margin-top: 10%;
+    }
+    button{
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
